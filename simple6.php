@@ -1,10 +1,11 @@
 <?php
-//vraagt om getal en telt er naar toe
+//vraagt om getal en bewerking
 //input
 echo "geef een getal: ";
 $input = trim(fgets(STDIN));
 echo "type s for sum, or p for product: ";
 $task = trim(fgets(STDIN));
+
 //bepaal bewerking
 if($task == p){
   $answer = 0;
@@ -19,8 +20,6 @@ if($task == p){
 }else{
   $answer = 'only p(roduct) and s(um) are defined acytions';
 }
-
-//calc sum
 
 //view
 echo $answer;
