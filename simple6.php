@@ -14,7 +14,7 @@ if($task =='s'){
 }
 }elseif($task == 'p'){
   $answer =1;
-  for ($i=0 ; $i <= $input ; $i++ ) { 
+  for ($i=1 ; $i <= $input ; $i++ ) { 
 	$answer *= $i;
 }
 }else{
