@@ -8,15 +8,15 @@ $task = trim(fgets(STDIN));
 
 //bepaal bewerking
 if($task =='s'){
-  $answer = 0;
-  for ($i=0 ; $i <= $input ; $i++ ) { 
-	$answer += $i;
-}
+  	$answer = 0;
+  	for ($i=0 ; $i <= $input ; $i++ ) { 
+		$answer += $i;
+	}
 }elseif($task == 'p'){
-  $answer =1;
-  for ($i=1 ; $i <= $input ; $i++ ) { 
+  	$answer =1;
+  	for ($i=1 ; $i <= $input ; $i++ ) { 
 	$answer *= $i;
-}
+	}
 }else{
   $answer = 'only p(roduct) and s(um) are defined acytions';
 }
